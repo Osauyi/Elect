@@ -645,7 +645,7 @@ button:hover {
       flex-direction: column;
       justify-content: space-between;
       text-align: left;
-      border-radius: 15px;
+      border-radius: 30px;
    }
 
  
@@ -749,6 +749,7 @@ nav ul li {
    margin-left: 35px;
      max-width: 211px;
        min-width: 137px;
+       font-weight: normal;
 }
 
 
@@ -778,6 +779,14 @@ nav ul li {
 
 .contact-info{
 padding: 2rem;
+}
+
+.stats-box {
+  flex-direction: column;
+}
+
+.hero-images img {
+  width: 90%;
 }
 
 
